@@ -4,9 +4,10 @@ package main;
  * 
  * @author 89078 - Luis Couto
  * @author 89082 - Antonio Ferreira
+ * @brief File that contains the constant values used by the program
  */
 
-public interface Constants {
+public final class Constants {
 	
 	/**
 	 * @brief Total number of existing thieves, including Master Thief
@@ -14,7 +15,7 @@ public interface Constants {
 	public static final int NUM_THIEVES = 7;
 	
 	/**
-	 * @brief Number of elements in each assault party
+	 * @brief Number of ordinary thieves in each assault party
 	 * */
 	public static final int ASSAULT_PARTY_SIZE = 3;
 	
@@ -30,7 +31,7 @@ public interface Constants {
 	public static final int TOTAL_EXHIBITION_ROOMS = 5;
 	
 	/**
-	 * @brief Maximum separation limit between thieves crawling
+	 * @brief Maximum separation limit between ordinary thieves crawling
 	 * */
 	public static final int MAX_SEPARATION_DISTANCE = 3;
 	

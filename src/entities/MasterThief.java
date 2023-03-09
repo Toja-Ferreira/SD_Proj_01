@@ -6,7 +6,6 @@ package entities;
  * @author 89082 - Antonio Ferreira
  */
 
-public class MasterThief {
-
+public class MasterThief extends Thread {
 
 }
