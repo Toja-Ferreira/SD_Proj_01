@@ -1,7 +1,7 @@
 package main;
 
 /** 
- * 
+ * Class that implements the main program
  * @author 89078 - Luis Couto
  * @author 89082 - Antonio Ferreira
  */

@@ -1,67 +1,67 @@
 package main;
 
 /** 
- * 
+ * Class that contains the constant values used by the program <br>
+ * May be customized to use other execution values
  * @author 89078 - Luis Couto
  * @author 89082 - Antonio Ferreira
- * @brief File that contains the constant values used by the program
  */
 
-public final class Constants {
+public class Constants {
 	
 	/**
-	 * @brief Total number of existing thieves, including Master Thief
+	 * Total number of existing thieves, including the master thief <br>
 	 * */
 	public static final int NUM_THIEVES = 7;
 	
 	/**
-	 * @brief Number of ordinary thieves in each assault party
+	 * Number of ordinary thieves in each assault party <br>
 	 * */
 	public static final int ASSAULT_PARTY_SIZE = 3;
 	
 	/**
-	 * @brief Number of assault parties
+	 * Number of assault parties  <br>
 	 * @value (NUM_THIEVES - 1) / ASSAULT_PARTY_SIZE
 	 * */
 	public static final int NUM_ASSAULT_PARTIES = (NUM_THIEVES - 1) / ASSAULT_PARTY_SIZE;
 	
 	/**
-	 * @brief Number of exhibition rooms having paintings in display
+	 * Number of exhibition rooms having paintings in display <br>
 	 * */
-	public static final int TOTAL_EXHIBITION_ROOMS = 5;
+	public static final int NUM_ROOMS_WITH_PAINTINGS = 5;
 	
 	/**
-	 * @brief Maximum separation limit between ordinary thieves crawling
+	 * Maximum separation limit between ordinary thieves crawling <br>
 	 * */
 	public static final int MAX_SEPARATION_DISTANCE = 3;
 	
 	/**
-	 * @brief Minimum displacement of the ordinary thieves
+	 * Minimum displacement of an ordinary thief <br>
 	 * */
 	public static final int MIN_DISPLACEMENT = 2;
 	
 	/**
-	 * @brief Maximum displacement of the ordinary thieves
+	 * Maximum displacement of an ordinary thief <br>
 	 * */
 	public static final int MAX_DISPLACEMENT = 6;
 	
 	/**
-	 * @brief Minimum distance to the outside concentration site
+	 * Minimum distance of an exhibition room to the outside concentration site <br>
 	 * */
 	public static final int MIN_DISTANCE_TO_SITE = 15;
 	
 	/**
-	 * @brief Maximum distance to the outside concentration site
+	 * Maximum distance of an exhibition room to the outside concentration site <br>
 	 * */
 	public static final int MAX_DISTANCE_TO_SITE = 30;
 	
 	/**
-	 * @brief Minimum number of paintings hanging in each room
+	 * Minimum number of paintings hanging in an exhibition room <br>
 	 * */
 	public static final int MIN_PAINTINGS_IN_ROOM = 8;
 	
 	/**
-	 * @brief Maximum number of paintings hanging in each room
+	 * Maximum number of paintings hanging in an exhibition room <br>
 	 * */
 	public static final int MAX_PAINTINGS_IN_ROOM = 16;
 }
