@@ -1,7 +1,7 @@
 package entities;
 
 /** 
- * Class that contains the Ordinary Thief states
+ * Class that contains the definition of the internal states of the Ordinary Thief during his life cycle
  * @author 89078 - Luis Couto
  * @author 89082 - Antonio Ferreira
  */
@@ -51,4 +51,11 @@ public class OrdinaryStates {
 	 * */
 	public static final int COLLECTION_SITE = 5;
 	
+	/**
+	 * Private constructor to prevent class from being instantiated <br>
+	 * @throws UnsupportedOperationException
+	 */
+	private OrdinaryStates(){
+        throw new UnsupportedOperationException("Instantiation of OrdinaryState class is not permitted!");
+    }
 }

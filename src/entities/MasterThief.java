@@ -7,5 +7,26 @@ package entities;
  */
 
 public class MasterThief extends Thread {
+	
+	/**
+	 * Master Thief state
+	 */
+	private int state;	
+	
+	/** 
+	 * Instantiation of a Master Thief thread <br>
+	 */
+	public MasterThief() {
+		super("MstT");
+		this.state = MasterStates.PLANNING_THE_HEIST;
+	}
+	
+	/**
+	 * Life cycle of the Master Thief
+	 */
+	@Override
+	public void run() {
+		
+	}
 
 }

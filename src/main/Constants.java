@@ -1,8 +1,8 @@
 package main;
 
 /** 
- * Class that contains the constant values used by the program <br>
- * May be customized to use other execution values
+ * Class that contains the definition of the simulation parameters <br>
+ * May be customized to use other parameter values 
  * @author 89078 - Luis Couto
  * @author 89082 - Antonio Ferreira
  */
@@ -20,8 +20,8 @@ public class Constants {
 	public static final int ASSAULT_PARTY_SIZE = 3;
 	
 	/**
-	 * Number of assault parties  <br>
-	 * @value (NUM_THIEVES - 1) / ASSAULT_PARTY_SIZE
+	 * Number of assault parties <p>
+	 * Given by: (NUM_THIEVES - 1) / ASSAULT_PARTY_SIZE <br>
 	 * */
 	public static final int NUM_ASSAULT_PARTIES = (NUM_THIEVES - 1) / ASSAULT_PARTY_SIZE;
 	
@@ -64,4 +64,12 @@ public class Constants {
 	 * Maximum number of paintings hanging in an exhibition room <br>
 	 * */
 	public static final int MAX_PAINTINGS_IN_ROOM = 16;
+	
+	/**
+	 * Private constructor to prevent class from being instantiated <br>
+	 * @throws UnsupportedOperationException
+	 */
+	private Constants(){
+        throw new UnsupportedOperationException("Instantiation of Constants class is not permitted!");
+    }
 }

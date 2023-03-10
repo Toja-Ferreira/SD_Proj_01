@@ -1,7 +1,7 @@
 package entities;
 
 /** 
- * Class that contains the Master Thief states
+ * Class that contains the definition of the internal states of the Master Thief during his life cycle
  * @author 89078 - Luis Couto
  * @author 89082 - Antonio Ferreira
  */
@@ -41,4 +41,11 @@ public class MasterStates {
 	 * */
 	public static final int PRESENTING_THE_REPORT = 5;
 	
+	/**
+	 * Private constructor to prevent class from being instantiated <br>
+	 * @throws UnsupportedOperationException
+	 */
+	private MasterStates(){
+        throw new UnsupportedOperationException("Instantiation of MasterState class is not permitted!");
+    }
 }
